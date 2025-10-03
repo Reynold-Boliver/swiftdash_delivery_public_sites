@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Confirmed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="min-h-screen flex items-center justify-center">
+      <div class="bg-white shadow-lg rounded-xl p-8 max-w-md w-full text-center">
+        <!-- Success Icon -->
+        <div class="flex justify-center mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-16 w-16 text-green-500"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.707 5.293a1 1 0 010 1.414L8.414 15 5 11.586a1 1 0 111.414-1.414L8.414 12.172l7.293-7.293a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h1 class="text-2xl font-bold text-gray-800">Email Confirmed!</h1>
+        <p class="mt-2 text-gray-600">
+          Your email address has been successfully verified. You can now use the app.
+        </p>
+
+        <!-- Open App Button -->
+        <div class="mt-6">
+          <a
+            href="myapp://login"
+            class="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            Open App
+          </a>
+        </div>
+
+        <!-- Support Placeholder -->
+        <div class="mt-6 border-t pt-4">
+          <p class="text-sm text-gray-500">
+            Need help? Contact our support team at
+            <a href="mailto:support@example.com" class="text-blue-600 hover:underline">
+              support@example.com
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
